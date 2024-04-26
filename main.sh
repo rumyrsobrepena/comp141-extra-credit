@@ -13,10 +13,10 @@ ls  > ls.txt
 
 cp ec.txt copy.txt
 
-alias today='date +"%Y-%m-%d" '
-today
+alias today='date +"%Y-%m-%d"'
+export today
 
-today > date.txt
+export today > date.txt
 
 wc -w ec.txt > textcount.txt
 
